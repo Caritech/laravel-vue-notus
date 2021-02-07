@@ -42,7 +42,9 @@ In Laravel assets file is put in public folder. (so that, the image file can acc
 
 ### Resources/scss 
 Any css file in vue project need to put in resources/scss, and use app.scss to import
+
 (resources/css is use by postCss, however postCss dont have tutorial on import fontawesome, so use Scss)
+
 (if you know how to use postCss, you may use it)
 
 ### Resources/js
