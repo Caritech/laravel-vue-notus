@@ -25,6 +25,9 @@ php artisan migrate
 npm run hot
 php artisan serve
 ```
+
+*need to start MySQL xampp*
+
 access the demo page at http://127.0.0.1:8000/admin/dashboard
  
 
