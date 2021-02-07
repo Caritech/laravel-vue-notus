@@ -8,6 +8,27 @@ Currently, testable path:
 - ***/admin/dashboard***
 
 
+# How To Test
+```
+git clone https://github.com/Caritech/laravel-vue-notus.git
+```
+
+```
+npm install
+composer install
+```
+
+create .env file (you may copy from .env.example)
+```
+php artisan config：cache
+php artisan migrate
+npm run hot
+php artisan serve
+```
+access the demo page at http://127.0.0.1:8000/admin/dashboard
+ 
+
+
 # Tutorial & Things to Take Care
 ### public/..
 For standalone vue project, the assets file like image is put in src/assets, 
