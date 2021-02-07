@@ -26,3 +26,22 @@ In Laravel: suggested directory structure are:
 ### Package.json
 Need to manual validate and copy required pacakge from vue project to Laravel.
 
+### webpack.mix.js
+postCss do not have fontawsome integration sample, so using back sass (previous Laravel css compiler)
+```
+mix.js('resources/js/app.js', 'public/js').vue()
+    .sass('resources/sass/app.scss', 'public/css')
+    .options({
+        postCss: [
+            require('postcss-import'),
+            require('tailwindcss'),
+            require('autoprefixer'),
+        ]
+    })
+    .webpackConfig(require('./webpack.config'));
+
+if (mix.inProduction()) {
+    mix.version();
+}
+```
+
