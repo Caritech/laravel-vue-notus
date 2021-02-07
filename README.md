@@ -31,6 +31,8 @@ php artisan serve
 access the demo page at http://127.0.0.1:8000/admin/dashboard
  
 
+![Sample Page Image](https://ibb.co/414PTMj)
+
 
 # Tutorial & Things to Take Care
 ### public/..
