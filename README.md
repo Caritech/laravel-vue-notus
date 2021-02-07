@@ -47,10 +47,11 @@ Any css file in vue project need to put in resources/scss, and use app.scss to i
 
 ### Resources/js
 Components and vue related files can put in resources/js,
+
 In Laravel: suggested directory structure are:
-**resources/js/Pages** (same like Laravel views, use by Inertia::render(...) )
-**resources/js/Components** (global components, such as button, input field, select box)
-**resources/js/Layouts** (layouts such as Admin Dashboard Layout, User Dashboard Layout)
+- **resources/js/Pages** (same like Laravel views, use by Inertia::render(...) )
+- **resources/js/Components** (global components, such as button, input field, select box)
+- **resources/js/Layouts** (layouts such as Admin Dashboard Layout, User Dashboard Layout)
 
 ### Package.json
 Need to manual validate and copy required pacakge from vue project to Laravel.
