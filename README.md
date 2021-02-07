@@ -30,8 +30,9 @@ php artisan serve
 
 access the demo page at http://127.0.0.1:8000/admin/dashboard
  
+you should see this page
 
-![Sample Page Image](https://ibb.co/414PTMj)
+![Image](https://i.ibb.co/g4tzTwD/Captu22re.png)
 
 
 # Tutorial & Things to Take Care
